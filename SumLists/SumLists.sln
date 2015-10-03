@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SumLists", "SumLists\SumLists.vcxproj", "{CF511F50-CF48-4B05-8222-992DBD6E0FCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF511F50-CF48-4B05-8222-992DBD6E0FCC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CF511F50-CF48-4B05-8222-992DBD6E0FCC}.Debug|Win32.Build.0 = Debug|Win32
+		{CF511F50-CF48-4B05-8222-992DBD6E0FCC}.Release|Win32.ActiveCfg = Release|Win32
+		{CF511F50-CF48-4B05-8222-992DBD6E0FCC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
