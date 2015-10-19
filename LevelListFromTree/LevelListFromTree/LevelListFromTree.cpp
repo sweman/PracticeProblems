@@ -1,4 +1,4 @@
-// LevelListFromTree.cpp : Defines the entry point for the console application.
+// LevelListFromTree.cpp : Binary tree traversal exersizes.
 //
 
 #include "stdafx.h"
