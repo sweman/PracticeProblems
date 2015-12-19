@@ -14,13 +14,14 @@ others and the project manager can automatically update the components in the co
 Write a program that reads a project file from stdin and writes to stdout the order in which the tasks
 should be performed.
 Input
-For simplicity we represent each task by an integer number from where is the total number
-of tasks. The first line of input specifies the number of tasks and the number of rules, such that
-and .
-The rest of the input consists of rules, one in each line, specifying dependencies using the following
+For simplicity we represent each task by an integer number from 1, 2, . . . , N (where N is the total
+number of tasks). The first line of input specifies the number N of tasks and the number M of rules,
+such that N ≤ 100, M ≤ 100.
+The rest of the input consists of M rules, one in each line, specifying dependencies using the following
 syntax:
-This rule means that task number depends on tasks (we say that task is the target
-and are dependents).
+T0 k T1 T2 . . . Tk
+This rule means that task number T0 depends on k tasks T1, T2, . . . , Tk (we say that task T0 is the
+target and T1, . . . , Tk are dependents).
 Note that tasks numbers are separated by single spaces and that rules end with a newline. Rules can
 appear in any order, but each task can appear as target only once.
 Your program can assume that there are no circular dependencies in the rules, i.e. no task depends
