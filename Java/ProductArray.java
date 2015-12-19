@@ -56,7 +56,7 @@ public class ProductArray {
 	}
 	// Main idea: at each recursion level (index == i), the product of the first i-1
 	// integers is passed in as the fwdProduct parameter. Computes (recursively) the product 
-	// of i+1 - n-1 integers and write the result to outArray at index. Returns the revProduct, 
+	// of i+1 - n-1 integers and writes the result to outArray at index == i. Returns the revProduct, 
 	// i.e., the product of i - n-1 integers.
 	public static int getArrayOfProducts(int[] inArray, int[] outArray, int index, int fwdProduct)
 	{
