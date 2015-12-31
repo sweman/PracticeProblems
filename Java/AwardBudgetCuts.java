@@ -36,7 +36,7 @@ public class AwardBudgetCuts {
 			if (cappedSum == b) {
 				return g[mid];
 			}
-			if (cappedSum >= b) {
+			if (cappedSum > b) {
 				if (mid > 0) {
 					int prevCappedSum = partialSums[mid-1] + g[mid-1] * (g.length - mid);
 					if (prevCappedSum < b) {
